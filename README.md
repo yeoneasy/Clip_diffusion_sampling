@@ -1,6 +1,6 @@
 # clip_guided_diffusion
 
-This is codebase from [openai/CLIP](https://github.com/openai/CLIP).  
+This is codebase from [openai/CLIP](https://github.com/openai/CLIP). <br/> 
 CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. 
 
 ## Approach
