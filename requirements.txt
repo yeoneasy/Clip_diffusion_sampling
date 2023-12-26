@@ -1,8 +1,199 @@
-ftfy 6.1.3
-regex 2020.10.15
-tqdm 4.50.2
-torch 2.1.1
-torchvision 0.16.1
-torchvision
-pillow 8.0.1
-numpy 1.19.2
+absl-py==2.0.0
+accelerate==0.25.0
+annotated-types==0.6.0
+anyio==4.1.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asgiref==3.7.2
+asttokens==2.4.1
+astunparse==1.6.3
+async-lru==2.0.4
+attrs==23.1.0
+Babel==2.13.1
+beartype==0.16.4
+beautifulsoup4==4.12.2
+bleach==6.1.0
+blis==0.7.11
+Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
+cachetools==5.3.2
+catalogue==2.0.10
+certifi @ file:///croot/certifi_1700501669400/work/certifi
+cffi @ file:///croot/cffi_1700254295673/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+cloudpathlib==0.16.0
+comm==0.2.0
+confection==0.1.4
+contourpy==1.2.0
+cryptography @ file:///croot/cryptography_1694444244250/work
+curated-tokenizers==0.0.8
+curated-transformers==0.1.1
+cycler==0.12.1
+cymem==2.0.8
+debugpy==1.8.0
+decorator==5.1.1
+defusedxml==0.7.1
+denoising-diffusion-pytorch==1.9.4
+Deprecated==1.2.14
+Django==4.2.7
+einops==0.7.0
+ema-pytorch==0.3.1
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1-py3-none-any.whl#sha256=ab70aeb6172cde82508f7739f35ebc9918a3d07debeed637403c8f794ba3d3dc
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl#sha256=6a0f857a2b4d219c6fa17d455f82430b365bf53171a2d919b9376e5dc9be032e
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.7.3/en_core_web_trf-3.7.3-py3-none-any.whl#sha256=f72abb34bdf174876bd4267b29b2501677e605e0a251fdc56c163003182ed68b
+exceptiongroup==1.2.0
+executing==2.0.1
+fastjsonschema==2.19.0
+filelock==3.13.1
+flatbuffers==23.5.26
+fonttools==4.45.1
+fqdn==1.5.1
+fsspec==2023.10.0
+ftfy==6.1.3
+gast==0.5.4
+glide-text2im @ git+https://github.com/openai/glide-text2im@69b530740eb6cef69442d6180579ef5ba9ef063e
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+grpcio==1.59.3
+h5py==3.10.0
+huggingface-hub==0.19.4
+idna @ file:///croot/idna_1666125576474/work
+image==1.5.33
+ipykernel==6.26.0
+ipython==8.18.0
+ipywidgets==8.1.1
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2==3.1.2
+json5==0.9.14
+jsonpointer==2.4
+jsonschema==4.20.0
+jsonschema-specifications==2023.11.1
+jupyter-events==0.9.0
+jupyter-lsp==2.2.0
+jupyter_client==8.6.0
+jupyter_core==5.5.0
+jupyter_server==2.10.1
+jupyter_server_terminals==0.4.4
+jupyterlab==4.0.9
+jupyterlab-widgets==3.0.9
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.2
+keras==2.15.0
+kiwisolver==1.4.5
+langcodes==3.3.0
+libclang==16.0.6
+Markdown==3.5.1
+MarkupSafe==2.1.3
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+mistune==3.0.2
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+ml-dtypes==0.2.0
+murmurhash==1.0.10
+nbclient==0.9.0
+nbconvert==7.11.0
+nbformat==5.9.2
+nest-asyncio==1.5.8
+notebook-utils==0.2.0
+notebook_shim==0.2.3
+numpy @ file:///croot/numpy_and_numpy_base_1695830428084/work/dist/numpy-1.26.0-cp310-cp310-linux_x86_64.whl#sha256=fc2732718bc9e06a7b702492cb4f5afffe9671083930452d894377bf563464a3
+oauthlib==3.2.2
+opencv-contrib-python==4.8.1.78
+openvino==2023.2.0
+openvino-telemetry==2023.2.1
+opt-einsum==3.3.0
+overrides==7.4.0
+packaging==23.2
+pandas==2.1.3
+pandocfilters==1.5.0
+parso==0.8.3
+pexpect==4.9.0
+Pillow @ file:///croot/pillow_1696580024257/work
+platformdirs==4.0.0
+preshed==3.0.9
+prometheus-client==0.19.0
+prompt-toolkit==3.0.41
+protobuf==4.23.4
+psutil==5.9.6
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.5.2
+pydantic_core==2.14.5
+Pygments==2.17.2
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.1
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+pyspellchecker==0.7.2
+python-dateutil==2.8.2
+python-json-logger==2.0.7
+pytorch-fid==0.3.0
+pytz==2023.3.post1
+PyYAML==6.0.1
+pyzmq==25.1.1
+referencing==0.31.0
+regex==2023.10.3
+requests @ file:///croot/requests_1690400202158/work
+requests-oauthlib==1.3.1
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rpds-py==0.13.1
+rsa==4.9
+safetensors==0.4.0
+scipy==1.11.4
+Send2Trash==1.8.2
+sentencepiece==0.1.99
+six==1.16.0
+smart-open==6.4.0
+sniffio==1.3.0
+soupsieve==2.5
+spacy==3.7.2
+spacy-curated-transformers==0.2.0
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+sqlparse==0.4.4
+srsly==2.4.8
+stack-data==0.6.3
+tensorboard==2.15.1
+tensorboard-data-server==0.7.2
+tensorflow @ file:///home2/test01/Mentoring2023/Data/tensorflow-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=ed601b43df9b7d9bed0203b34bcb9356efd4f671eaaac1046b7166a2afee0cf8
+tensorflow-estimator==2.15.0
+tensorflow-io-gcs-filesystem==0.34.0
+termcolor==2.3.0
+terminado==0.18.0
+thinc==8.2.1
+tinycss2==1.2.1
+tokenizers==0.15.0
+tomli==2.0.1
+torch==1.12.1
+torchaudio==0.12.1
+torchsummary==1.5.1
+torchvision==0.13.1
+tornado==6.3.3
+tqdm==4.66.1
+traitlets==5.13.0
+transformers @ git+https://github.com/huggingface/transformers@35551f9a0f66a22de4971b4a51b3c172d3b87f95
+typer==0.9.0
+types-python-dateutil==2.8.19.14
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+tzdata==2023.3
+uri-template==1.3.0
+urllib3 @ file:///croot/urllib3_1698257533958/work
+wasabi==1.1.2
+wcwidth==0.2.12
+weasel==0.3.4
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.6.4
+Werkzeug==3.0.1
+widgetsnbextension==4.0.9
+wrapt==1.14.1
