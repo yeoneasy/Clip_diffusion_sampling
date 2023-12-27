@@ -21,10 +21,6 @@ Train and validation
 2. Download shapenet dataset [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90) (cars_train, cars_val)
 3. Put datasets seperately in directory (/db/cars_train, /db/cars_val)
 
-### Losses
-
-![image](https://github.com/Yeoneasy/clip_diffusion_sampling/assets/129255517/36af4305-5c6d-4fd8-a2da-5242e137b735)
-
 ## Running the tests
 
 Explain how to run the automated tests for this system
