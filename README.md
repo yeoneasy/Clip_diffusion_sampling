@@ -14,11 +14,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-```
 1. Download code zip
 2. Download shapenet dataset(cars_train, cars_val) [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90)
 3. make folders and put datasets seperately in directory (/db/cars_train, /db/cars_val)
-```
 
 ## Running the tests
 
