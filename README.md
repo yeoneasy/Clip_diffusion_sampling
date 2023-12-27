@@ -1,6 +1,6 @@
 # clip_diffusion_sampling
 
-This is codebase from [openai/CLIP](https://github.com/openai/CLIP), [diffusion](https://github.com/lucidrains/denoising-diffusion-pytorch). <br/> 
+This is codebase from [openai/CLIP](https://github.com/openai/CLIP), [denoising_diffusion](https://github.com/lucidrains/denoising-diffusion-pytorch). <br/> 
 CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. <br/><br/>
 Our goal is diffusion generative model sampling using CLIP.
 
