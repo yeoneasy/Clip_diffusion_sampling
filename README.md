@@ -7,6 +7,8 @@ Object is Diffusion generative model sampling using CLIP.
 ## Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
 
+![aas](https://github.com/Yeoneasy/clip_diffusion_sampling/assets/129255517/e32673e0-7a9a-4993-a6ba-2c0be38dbff5)
+
 ### Requirements
 
 ```
