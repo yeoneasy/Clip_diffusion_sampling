@@ -5,35 +5,17 @@ CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a 
 
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
 
-## Prerequisites
-
-What things you need to install the software and how to install them
+## Requirements
 
 ```
 pip install -r requirements.txt
 ```
+
 ### Usage
 
-1. Download zip file
-2. 
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+1. Download code zip
+2. Download shapenet dataset(cars_train, cars_val) [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90)
+3. make folders and put datasets seperately in directory (/db/cars_train, /db/cars_val)
 
 ## Running the tests
 
@@ -54,13 +36,3 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
