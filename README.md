@@ -16,6 +16,8 @@ pip install -r requirements.txt
 ### Files
 
 **cars_text** is the text per image folder in the shapenet dataset.
+The number of these is 2151. The image folders each contain 250 photos of the subject from different angles.
+We only use images of cars in shapenet.
 
 ### Usage
 
