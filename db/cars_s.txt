@@ -1,0 +1,43 @@
+a red car
+a gray jeep/bus
+a white car
+a blue car
+a blue jeep/bus
+a yellow jeep/bus
+a green jeep/bus
+a red jeep/bus
+a white jeep/bus
+a yellow and green car
+a yellow car
+a white truck
+a green car
+a white van
+a white and yellow jeep/bus
+a gray car
+a white and red car
+a white sports car
+a red and blue car
+a red and green car
+a gray and black car
+a white and green car
+a white and blue car
+a white and green jeep/bus
+a yellow and red car
+a white and gray car
+a black open car
+a black car
+a green and yellow car
+a blue and red jeep/bus
+a gray and green car
+a white and red jeep/bus
+a white and yellow car
+a yellow van
+a green and gray car
+a green and red jeep/bus
+a blue and red car
+a white and gray jeep/bus
+a black and gray car
+a green and yellow jeep/bus
+a white and blue jeep/bus
+a white and gray van
+a red and blue jeep/bus
