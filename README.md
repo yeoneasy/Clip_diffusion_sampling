@@ -29,6 +29,7 @@ Train and validation
 1. Download code zip
 2. Download shapenet dataset [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90) (cars_train, cars_val)
 3. Put datasets seperately in directory (/db/cars_train, /db/cars_val)
+4. Run unnoised_train or .ipynb file in notebooks
 
 
 
