@@ -5,9 +5,10 @@ Also, referd to [lucidrains/denoising-diffusion-pytorch](https://github.com/luci
 CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. <br/><br/>
 Our goal is diffusion generative model sampling using CLIP.
 
-## Approach
+### CLIP Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
 
+### Diffusion Approach 
 ![aas](https://github.com/Yeoneasy/clip_diffusion_sampling/assets/129255517/e32673e0-7a9a-4993-a6ba-2c0be38dbff5)
 
 ### Requirements
@@ -29,7 +30,7 @@ Train and validation
 1. Download code zip
 2. Download shapenet dataset [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90) (cars_train, cars_val)
 3. Put datasets seperately in directory (/db/cars_train, /db/cars_val)
-4. Run unnoised_train or .ipynb file in notebooks
+4. Run unnoised_train or ipynb file in notebooks
 
 
 
