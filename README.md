@@ -1,4 +1,4 @@
-## Clip_diffusion_sampling
+## Clip_Diffusion_Sampling
 
 This is codebase from [openai/CLIP](https://github.com/openai/CLIP).<br/> 
 Also, referd to [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch). <br/> 
