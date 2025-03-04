@@ -1,4 +1,4 @@
-## Clip_Diffusion_Sampling
+## Clip 모델을 이용한 확산 생성 모델 샘플링
 
 This is codebase from [openai/CLIP](https://github.com/openai/CLIP).<br/> 
 Also, referd to [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch). <br/> 
