@@ -13,7 +13,9 @@
 
 ### Diffusion Approach 
 ![aas](https://github.com/Yeoneasy/clip_diffusion_sampling/assets/129255517/e32673e0-7a9a-4993-a6ba-2c0be38dbff5)
-
+ Diffusion model은 기존의 데이터에 noise를 더해가며 학습하는 모델<br/>
+ forward process와 reverse process를 이용하여 이미지를 생성하며 guidance를 활용<br/>
+ 이를 통해 사용자가 원하는 이미지에 가깝게 생성하는 방법
 ### Requirements
 
 ```
