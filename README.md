@@ -7,8 +7,8 @@
 ### CLIP Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
  CLIP은 이미지 인코더와 텍스트 인코더를 결합하여 이미지와 텍스트를 모두 처리할 수 있는 모델<br/>
- Contrastive learning은 각 이미지와 텍스트를 결합한 가상의 테이블에서 실제 일치하는 쌍에서 긍정적인 영향이<br/> 
- 그렇지 않은 부분에서 부정적인 영향이 극대화되어 학습이 이뤄지도록 하는 학습 기법<br/>
+ Contrastive learning은 각 이미지와 텍스트를 결합한 가상의 테이블에서 실제 일치하는 쌍에서<br/> 
+ 긍정적인 영향이 그렇지 않은 부분에서 부정적인 영향이 극대화되어 학습이 이뤄지도록 하는 학습 기법<br/>
  이를 통해 CLIP에서 image에 맞는 class 정보를 가진 텍스트를 생성
 
 ### Diffusion Approach 
