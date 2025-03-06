@@ -7,7 +7,7 @@
  의미를 가진 이미지 생성이 가능해지며, 생성된 이미지를 클래스에 따라 분류하여 정확도를 향상시키고자 한다.
  
 ### 목표
- 1. Shapenet 데이터셋 중 car에 관련된 이미지들에 맞게 text를 라벨링
+ 1. Shapenet v2 데이터셋 중 car에 관련된 이미지들에 맞게 text를 라벨링
  2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가
  3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링
  4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
@@ -24,11 +24,6 @@
  Diffusion model은 기존의 데이터에 noise를 더해가며 학습하는 모델<br/>
  forward process와 reverse process를 이용하여 이미지를 생성하며 guidance를 활용<br/>
  이를 통해 사용자가 원하는 이미지에 가깝게 생성하는 방법
-### Requirements
-
-```
-pip install -r requirements.txt
-```
 
 ### Files
 
@@ -44,6 +39,12 @@ pip install -r requirements.txt
  2. Download shapenet dataset [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90) (cars_train, cars_val)
  3. Put datasets seperately in directory (/db/cars_train, /db/cars_val)
  4. Run unnoised_train or ipynb file in notebooks
+    
+### Requirements
+
+```
+pip install -r requirements.txt
+```
 
 ### References
   1. [openai/CLIP](https://github.com/openai/CLIP) <br/>
