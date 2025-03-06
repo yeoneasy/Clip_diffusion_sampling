@@ -5,12 +5,6 @@
  조정하는 것은 어렵다. 따라서 우리는 CLIP 모델에 guidance를 도입하여 이미지 생성과정에서 사용자가 원하는 특징을 <br/>
  더욱 효과적으로 반영할 수 있도록 한다. 이를 통해 단순한 확산 모델 기반의 이미지 생성이 아니라, 특정한 방향성과 <br/>
  의미를 가진 이미지 생성이 가능해지며, 생성된 이미지를 클래스에 따라 분류하여 정확도를 향상시키고자 한다.
- 
-### 목표
- 1. 데이터셋(Shapenet v2) 중 car에 관련된 이미지와 text를 1:1로 라벨링
- 2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가
- 3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링
- 4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
     
 ### CLIP Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
@@ -24,6 +18,12 @@
  Diffusion model은 기존의 데이터에 noise를 더해가며 학습하는 모델<br/>
  forward process와 reverse process를 이용하여 이미지를 생성하며 guidance를 활용<br/>
  이를 통해 사용자가 원하는 이미지에 가깝게 생성하는 방법
+
+### 수행 과정
+ 1. 데이터셋(Shapenet v2) 중 car에 관련된 이미지와 text를 1:1로 라벨링
+ 2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가
+ 3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링
+ 4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
 
 ### Files
 
