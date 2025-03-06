@@ -7,7 +7,7 @@
  의미를 가진 이미지 생성이 가능해지며, 생성된 이미지를 클래스에 따라 분류하여 정확도를 향상시키고자 한다.
  
 ### 목표
- 1. Shapenet v2 데이터셋 중 car에 관련된 이미지들에 맞게 text를 라벨링
+ 1. 데이터셋(Shapenet v2) 중 car에 관련된 이미지와 text를 1:1로 라벨링
  2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가
  3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링
  4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
