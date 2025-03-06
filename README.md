@@ -8,16 +8,16 @@
     
 ### CLIP Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
- CLIP은 이미지 인코더와 텍스트 인코더를 결합하여 이미지와 텍스트를 모두 처리할 수 있는 모델<br/>
+ CLIP은 이미지 인코더와 텍스트 인코더를 결합하여 이미지와 텍스트를 모두 처리할 수 있는 모델 입니다. <br/>
  Contrastive learning은 각 이미지와 텍스트를 결합한 가상의 테이블에서 실제 일치하는 쌍에서<br/> 
- 긍정적인 영향이 그렇지 않은 부분에서 부정적인 영향이 극대화되어 학습이 이뤄지도록 하는 학습 기법<br/>
- 이를 통해 CLIP에서 image에 맞는 class 정보를 가진 텍스트를 생성
+ 긍정적인 영향이 그렇지 않은 부분에서 부정적인 영향이 극대화되어 학습이 이뤄지도록 하는 학습 기법으로<br/>
+ 이를 통해 CLIP에서 image에 맞는 class 정보를 가진 텍스트를 생성합니다.
 
 ### Diffusion Approach 
 ![aas](https://github.com/Yeoneasy/clip_diffusion_sampling/assets/129255517/e32673e0-7a9a-4993-a6ba-2c0be38dbff5)<br/>
- Diffusion model은 기존의 데이터에 noise를 더해가며 학습하는 모델<br/>
- forward process와 reverse process를 이용하여 이미지를 생성하며 guidance를 활용<br/>
- 이를 통해 사용자가 원하는 이미지에 가깝게 생성하는 방법
+ Diffusion model은 기존의 데이터에 noise를 더해가며 학습하는 모델 입니다.<br/>
+ forward process와 reverse process를 이용하여 이미지를 생성하며 guidance를 활용하여<br/>
+ 사용자가 원하는 이미지에 가깝게 생성하는 방법 입니다.
 
 ### 수행 과정
  1. 데이터셋(Shapenet v2) 중 자동차(car)에 관련된 이미지와 text를 1:1로 라벨링
