@@ -4,10 +4,10 @@
  Our goal is diffusion generative model sampling using CLIP.
  
 ### 목표
- 1. Shapenet 데이터셋 중 car에 관련된 이미지들에 맞게 text를 라벨링하기
- 2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가해보기
- 3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링하기
- 4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링하기
+ 1. Shapenet 데이터셋 중 car에 관련된 이미지들에 맞게 text를 라벨링
+ 2. 이미지 데이터셋과 라벨 값을 가지고 CLIP을 학습하고 평가
+ 3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP을 guidance로 하여 샘플링
+ 4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
     
 ### CLIP Approach
 ![CLIP](https://github.com/Yeoneasy/clip_guided_diffusion/assets/129255517/0a8bed9a-00db-4185-b917-8c73367a5c54)
