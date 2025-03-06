@@ -31,15 +31,6 @@
  The number of these is 2151. <br/> The image folders each contain 250 photos of the subject from different angles. <br/> 
  We only use images of cars in shapenet.
 
-### Usage
-
- Train and validation
-
- 1. Download code zip
- 2. Download shapenet dataset [here](https://drive.google.com/drive/folders/1OkYgeRcIcLOFu1ft5mRODWNQaPJ0ps90) (cars_train, cars_val)
- 3. Put datasets seperately in directory (/db/cars_train, /db/cars_val)
- 4. Run unnoised_train or ipynb file in notebooks
-    
 ### Requirements
 
 ```
@@ -47,6 +38,12 @@ pip install -r requirements.txt
 ```
 
 ### References
-  1. [openai/CLIP](https://github.com/openai/CLIP) <br/>
-  2. [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
+
+- [openai/CLIP](https://github.com/openai/CLIP) - OpenAI's CLIP: Learning Transferable Visual Models from Natural Language Supervision.
+- [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) - PyTorch implementation of denoising diffusion probabilistic models.
+- Radford, A., et al. (2021). [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020). *arXiv preprint, arXiv:2103.00020*.
+- Ho, J., Jain, A., & Abbeel, P. (2020). [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239). *arXiv preprint, arXiv:2006.11239*.
+- Nichol, A., et al. (2022). [GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models](https://arxiv.org/abs/2112.10741). *arXiv preprint, arXiv:2112.10741*.
+- Sitzmann, V., Zollhöfer, M., & Wetzstein, G. (2020). [Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations](https://arxiv.org/abs/1906.01618). *arXiv preprint, arXiv:1906.01618*.
+
 
