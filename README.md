@@ -25,11 +25,10 @@
  3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP 모델을 guidance로 하여 샘플링
  4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
 
-### Files
+### 라벨링
 
- **cars_text** is the text per image folder in the shapenet dataset.
- The number of these is 2151. <br/> The image folders each contain 250 photos of the subject from different angles. <br/> 
- We only use images of cars in shapenet.
+ **cars_text**는 shapenet 데이터셋의 이미지 폴더에 1:1로 매칭된 텍스트 목록 입니다. <br/>
+ 이 개수는 2151개 이며, 각 이미지 폴더들은 다양한 각도에서 찍은 자동차의 사진 250장이 들어있습니다.
 
 ### Requirements
 
