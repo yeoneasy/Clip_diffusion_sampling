@@ -20,7 +20,7 @@
  사용자가 원하는 이미지에 가깝게 생성하는 방법 입니다.
 
 ### 수행 과정
- 1. 데이터셋(Shapenet v2) 중 자동차(car)에 관련된 이미지와 text를 1:1로 라벨링
+ 1. 데이터셋(Shapenet v2) 중 자동차(car)에 관련된 이미지와 텍스트를 1:1로 라벨링
  2. 이미지 데이터셋과 라벨 값을 가지고 CLIP 모델을 사용하여 학습하고 평가, 검증
  3. 이미지 데이터셋을 통해 diffusion model을 학습하고 학습한 CLIP 모델을 guidance로 하여 샘플링
  4. 추가적으로 diffusion model의 각 noise들에 대해서도 CLIP을 학습시키고, 이를 guidance로 사용하여 diffusion model 샘플링
